@@ -56,3 +56,15 @@ def viewbook(request, bookId):
 
 def aboutus(request):
     return render(request, 'bookmodule/aboutus.html')
+
+def html5_links(request):
+    return render(request, 'bookmodule/html5_links.html')
+
+def html5_formatting(request):
+    return render(request, 'bookmodule/html5_formatting.html')
+
+def html5_lists(request):
+    return render(request, 'bookmodule/html5_lists.html')
+
+def html5_tables(request):
+    return render(request, 'bookmodule/html5_tables.html')

@@ -11,5 +11,9 @@ urlpatterns = [
     path('list_books/', views.list_books, name='books.list_books'),
     path('<int:bookId>/', views.viewbook, name='books.view_one_book'),
     path('aboutus/', views.aboutus, name='books.aboutus'),
+    path('html5/links/', views.html5_links, name="books.html5.links"),
+    path('html5/formatting/', views.html5_formatting, name='books.html5.formatting'),
+    path('html5/lists/', views.html5_lists, name='books.html5.lists'),
+    path('html5/tables/', views.html5_tables, name='books.html5.tables'),
 ]
 
